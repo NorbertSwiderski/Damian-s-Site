@@ -1,0 +1,30 @@
+body{
+    background: rgb(216, 208, 208);
+    margin: 0;
+}
+.header {
+    display: flex;
+    background: chartreuse;
+    align-items: center;
+}
+
+.header__image {
+    width: 250px;
+    height: 200px;
+    margin-left: 130px;
+}
+
+.header__menu {
+    margin: 0 auto;
+}
+
+.header__menu__list {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 30px;
+}
