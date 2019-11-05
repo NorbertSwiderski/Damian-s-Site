@@ -1,19 +1,18 @@
 body{
     background: rgb(216, 208, 208);
     margin: 0;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
 }
 .header {
     display: flex;
-    background: chartreuse;
+    background:rgb(203, 214, 174);
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
-
-.header__image {
-    width: 250px;
-    height: 200px;
-    margin-left: 130px;
-}
-
 .header__menu {
     margin: 0 auto;
 }
@@ -29,15 +28,15 @@ a {
     font-size: 30px;
 }
 .article{
-    margin-top: none;
+    padding-top: 100px;
     text-align: center;
     width: 800px;
     margin: 0 auto;
     background: cornsilk;
 }
-.article__service__title{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.article__service{
+    border: 2px solid #fcc400;
+    width: 700px;
+    margin: 0 auto 10px;
+    background: #fcc400;
 }
