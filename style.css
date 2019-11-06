@@ -33,6 +33,7 @@ a {
     text-decoration: none;
     margin-right: 50px;
     font-size: 25px;
+    color: lightgrey;
 }
 .article{
     padding-top: 100px;
@@ -41,9 +42,15 @@ a {
     margin: 0 auto;
     background: cornsilk;
 }
-.article__service{
+.article__service__title,.article__about__title,.article__offer__title,.article__welcome__title{
     border: 2px solid #fcc400;
-    width: 700px;
+    width: 750px;
     margin: 0 auto 10px;
     background: #fcc400;
+    color: black;
+    text-shadow: 0 2px 0 rgb(238, 218, 218);
+}
+.article__welcome{
+    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
