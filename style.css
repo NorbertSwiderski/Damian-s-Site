@@ -42,6 +42,20 @@ a {
     margin: 0 auto;
     background: cornsilk;
 }
+.article__image{
+    width: 750px;
+    height: 350px;
+    margin-bottom: 5px;
+}
+.article__about__main{
+    text-align: justify;
+    width: 750px;
+    margin-left: 25px;
+}
+.article__about__image{
+    float: right;
+    margin-left: 10px;
+}
 .article__service__title,.article__about__title,.article__offer__title,.article__welcome__title{
     border: 2px solid #fcc400;
     width: 750px;
